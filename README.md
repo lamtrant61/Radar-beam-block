@@ -1,3 +1,5 @@
+Author: lamtrant61@gmail.com
+
 This program is used to calculate the beam of radar that can be blocked by the topography (Hills, mountains..)
 
 Using the location and attribute (Elevation, nrays, nbins, range..) of radar as input
