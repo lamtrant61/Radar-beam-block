@@ -6,6 +6,6 @@ The result can be plot to the map in single mode or composite mode (plot multi r
 
 Main libralies: - Wradlib, Pyqt5, Matplotlib
 
-![alt text](https://github.com/lamtrant61/Radar-beam-block/blob/master/img/Untitled.png)
+![alt text](https://github.com/lamtrant61/Radar-beam-block/blob/master/img/1.png)
 
 
