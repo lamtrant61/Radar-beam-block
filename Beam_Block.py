@@ -1488,7 +1488,7 @@ class Ui_MainWindow(object):
 		cbar.set_label("H.[km]", labelpad=-20, y=1.05, rotation=0)
 		plt.xlabel('Longitude [deg]', labelpad=20.0)
 		plt.ylabel('Latitude [deg]', labelpad=32.0)
-		plt.title('Composite radar elevations')
+		plt.title('Composite radar height')
 		del data
 		gc.collect()
 		Tk.mainloop()
