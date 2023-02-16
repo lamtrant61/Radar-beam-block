@@ -6,6 +6,19 @@ The result can be plot to the map in single mode or composite mode (plot multi r
 
 Main libralies: - Wradlib, Pyqt5, Matplotlib
 
+The main interface
 ![alt text](https://github.com/lamtrant61/Radar-beam-block/blob/master/img/1.png)
+
+Elevation blocked of single radar
+![alt text](https://github.com/lamtrant61/Radar-beam-block/blob/master/img/2.png)
+
+Height blocked of single radar
+![alt text](https://github.com/lamtrant61/Radar-beam-block/blob/master/img/3.png)
+
+Elevation blocked of composite radar
+![alt text](https://github.com/lamtrant61/Radar-beam-block/blob/master/img/4.png)
+
+Height blocked of composite radar
+![alt text](https://github.com/lamtrant61/Radar-beam-block/blob/master/img/5.png)
 
 
