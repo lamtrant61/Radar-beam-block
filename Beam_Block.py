@@ -439,7 +439,17 @@ def save_radar_img(data, radar_obj=None, gr="COM", cm="ELE", str_com="", link_im
 	cbar.set_label("Elevs.[°]", labelpad=-20, y=1.05, rotation=0)
 	plt.xlabel('Longitude [deg]', labelpad=20.0)
 	plt.ylabel('Latitude [deg]', labelpad=32.0)
-	plt.title('Single radar elevations')	
+	title_img = ""
+	if (gr=="COM"):
+		title_img+="Composite radar "
+	else:
+		title_img+="Single radar "
+
+	if (cm=="ELE"):
+		title_img+="elevations"
+	else:
+		title_img+="height"
+	plt.title(title_img)	
 	plt.savefig(img_name, dpi=400, bbox_inches='tight',pad_inches=0.2)
 	plt.clf()
 	plt.close()
